@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Urban_Trendz/static/css/main.09112070.css",
-    "main.js": "/Urban_Trendz/static/js/main.3cd64857.js",
+    "main.css": "/Urban_Trendz/static/css/main.5e9a4f0d.css",
+    "main.js": "/Urban_Trendz/static/js/main.5d01b725.js",
     "static/js/787.c6f06c4f.chunk.js": "/Urban_Trendz/static/js/787.c6f06c4f.chunk.js",
     "index.html": "/Urban_Trendz/index.html",
-    "main.09112070.css.map": "/Urban_Trendz/static/css/main.09112070.css.map",
-    "main.3cd64857.js.map": "/Urban_Trendz/static/js/main.3cd64857.js.map",
+    "main.5e9a4f0d.css.map": "/Urban_Trendz/static/css/main.5e9a4f0d.css.map",
+    "main.5d01b725.js.map": "/Urban_Trendz/static/js/main.5d01b725.js.map",
     "787.c6f06c4f.chunk.js.map": "/Urban_Trendz/static/js/787.c6f06c4f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09112070.css",
-    "static/js/main.3cd64857.js"
+    "static/css/main.5e9a4f0d.css",
+    "static/js/main.5d01b725.js"
   ]
 }
