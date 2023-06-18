@@ -1,0 +1,124 @@
+.header {
+  width: 100%;
+  display: flex;
+  background-color: rgb(218, 218, 218);
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  height: 100%;
+}
+
+.header .header-left {
+  height: 100%;
+  padding: 1rem;
+  max-width: 550px;
+}
+
+.header .header-left h2 {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+}
+
+.header .header-left h1 {
+  font-size: 35px;
+  margin: 10px 0;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  font-weight: bold;
+}
+
+.header .header-left p {
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  color: rgb(99, 98, 98);
+}
+
+.header-left a button {
+  margin: 30px 4px;
+  padding: 12px 25px;
+  font-size: 13px;
+}
+
+.header .header-right {
+  max-width: 700px;
+}
+@media screen and (max-width: 1200px) {
+  .header-right .img-stack .img {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header .header-left {
+    max-width: 450px;
+  }
+
+  .header .header-left h2 {
+    font-size: 28px;
+  }
+
+  .header .header-left h1 {
+    font-size: 25px;
+    margin: 7px 0;
+  }
+
+  .header .header-left h1 span {
+    color: rgb(39, 39, 239);
+    font-size: 32px;
+  }
+  .header .header-left p {
+    font-size: 15px;
+  }
+
+  .header-left a button {
+    padding: 10px 23px;
+    font-size: 12px;
+  }
+  .header-right .img-stack .img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .header .header-left {
+    max-width: 450px;
+  }
+
+  .header .header-left h2 {
+    font-size: 25px;
+  }
+
+  .header .header-left h1 {
+    font-size: 20px;
+    margin: 7px 0;
+  }
+
+  .header .header-left h1 span {
+    font-size: 27px;
+  }
+  .header .header-left p {
+    font-size: 13px;
+  }
+
+  .header-left a button {
+    padding: 8px 17px;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .header-left a button {
+    padding: 7px 15px;
+    font-size: 8px;
+  }
+  .header-right .img-stack .img {
+    margin-top: 15px;
+    display: none;
+  }
+  .header .header-left h2 {
+    font-size: 20px;
+  }
+}
