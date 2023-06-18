@@ -7,17 +7,19 @@ import Service from "./components/Service";
 import Header from "./components/Header";
 import AllProductList from "./components/AllProductList"
 import Footer from "./components/Footer"
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
     <>
+      <Navbar />
       <Header />
       <ProductPanel />
       <AboutPage />
       <ProductHeading />
       <AllProductList />
       <Service />
-      <Footer/>
+      <Footer />
     </>
   );
 }
