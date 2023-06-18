@@ -1,5 +1,3 @@
-import React from "react";
-
 class product {
   constructor(id, productName, url, price, discription) {
     this.name = productName;
