@@ -30,7 +30,7 @@ function AboutPage() {
           </p>
           <a href="#footer">
             {" "}
-            <button className="common-btn">contact</button>
+        <a href="#footer">   <button className="common-btn">contact</button></a> 
           </a>
         </div>
       </div>
