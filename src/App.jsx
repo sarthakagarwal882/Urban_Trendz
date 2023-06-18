@@ -6,6 +6,7 @@ import AboutPage from "./components/AboutPage";
 import Service from "./components/Service";
 import Header from "./components/Header";
 import AllProductList from "./components/AllProductList"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <ProductHeading />
       <AllProductList />
       <Service />
+      <Footer/>
     </>
   );
 }
